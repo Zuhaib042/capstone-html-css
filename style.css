@@ -98,7 +98,7 @@ nav {
 /* hero section */
 
 .hero {
-  background-image: url(./images/main_big.png);
+  background-image: url(images/main_big.png);
   background-size: cover;
   background-position: center;
 }
@@ -120,7 +120,7 @@ nav {
 /* program */
 
 .program {
-  background-image: url(./images/gray-texture.png);
+  background-image: url(images/gray-texture.png);
   background-position: center;
   /* height: 80vh; */
 }
@@ -199,7 +199,7 @@ nav {
 
 .past1 {
   background-image: linear-gradient(#f5331dbf, #f2331ea2),
-    url(./images/hum-7th.jpeg);
+    url(images/hum-7th.jpeg);
   background-size: cover;
   height: 300px;
   width: 100%;
@@ -212,7 +212,7 @@ nav {
 
 .past2 {
   background-image: linear-gradient(#f5331dbf, #f2331ea2),
-    url(./images/hum-6th.jpeg);
+    url(images/hum-6th.jpeg);
   background-size: cover;
   height: 300px;
   width: 100%;
