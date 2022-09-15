@@ -16,10 +16,10 @@ links.forEach((link) => {
     menu.classList.toggle('hidden');
     menu.classList.toggle('flex');
     body.classList.toggle('active');
-    console.log('body active');
   });
 });
-AOS.init();
+
+// AOS.init();
 
 // dynamic data
 
@@ -60,7 +60,7 @@ const speakers = [
 ];
 
 speakers.forEach((speaker) => {
-  speakersContainer.innerHTML += `<article class="border flex items-start ">
+  speakersContainer.innerHTML += `<article class="flex items-start ">
     <div class="card-img">
         <img src=${speaker.src} alt=${speaker.alt}>
     </div>
