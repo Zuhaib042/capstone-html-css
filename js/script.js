@@ -19,8 +19,6 @@ links.forEach((link) => {
   });
 });
 
-// AOS.init();
-
 // dynamic data
 
 const speakersContainer = document.getElementById('speaker-container');
