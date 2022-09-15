@@ -4,6 +4,8 @@
 
 > This is a demo Hum Style Awards 2022 website which I created as my first Microverse Capstone project. it is a two page website where i have applied my html, css and javascript skills.
 
+![Hum Style Awards 2022](images/capstone-image.png)
+
 ## Built With
 
 - Major languages
