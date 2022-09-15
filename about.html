@@ -35,19 +35,21 @@
                 <a href="index.html" class="text-2xl font-bold">Hum Style Awards</a>
             </div>
             <div class="menu-links hidden md:flex md:items-center  space-x-6 pr-6 ">
-                <a href="about.html" class="text-lg" rel="noopener">About</a>
-                <a href="#program" class="text-lg" rel="noopener">Program</a>
-                <a href="#speakers" class="text-lg" rel="noopener">Speakers</a>
-                <a href="#" class="text-lg py-2 px-4 campaign" rel="noopener">CC Campaign</a>
+                <a href="about.html" class="text-lg mobile-links" rel="noopener">About</a>
+                <a href="#logo" class="text-lg mobile-links" rel="noopener">Logo</a>
+                <a href="#past" class="text-lg mobile-links" rel="noopener">Previously</a>
+                <a href="#" class="text-lg mobile-links py-2 px-4 campaign" rel="noopener">CC Campaign</a>
             </div>
         </nav>
-        <div id="menu"
-            class="absolute top-0 bottom-0 left-0 hidden flex-col self-end w-4/5 min-h-screen py-1 pt-40 pl-12 space-y-3 text-lg text-white uppercase overlay ">
-            <a href="about.html" class="text-lg" rel="noopener">About</a>
-            <a href="#program" class="text-lg" rel="noopener">Program</a>
-            <a href="#speakers" class="text-lg" rel="noopener">Speakers</a>
-            <a href="#" class="text-lg py-2 px-4 campaign self-start" rel="noopener">CC Campaign</a>
-        </div>
+        <ul id="menu"
+            class="absolute top-0 left-0 hidden flex-col self-end w-full min-h-screen py-1 pt-40 pl-12 space-y-3 text-lg text-white uppercase overlay">
+            <li class="mobile-links"> <a href="index.html" class="text-lg" rel="noopener">Home</a></li>
+            <li class="mobile-links"> <a href="about.html" class="text-lg" rel="noopener">About</a></li>
+            <li class="mobile-links"><a href="#logo" class="text-lg" rel="noopener">Logo</a></li>
+            <li class="mobile-links"> <a href="#past" class="text-lg" rel="noopener">Previously</a></li>
+            <li class="mobile-links"> <a href="#" class="text-lg py-2 px-4 campaign self-start" rel="noopener">CC
+                    Campaign</a></li>
+        </ul>
     </header>
     <main>
         <!-- hero section -->
@@ -73,7 +75,7 @@
             </div>
         </section>
         <!-- logo section -->
-        <section class="logo py-16 flex flex-col justify-center items-center border border-zinc-200">
+        <section class="logo py-16 flex flex-col justify-center items-center border border-zinc-200" id="logo">
             <h2 class="text-center text-3xl logo-title pt-8">Hum Style Awards 2022 logo</h2>
             <div class="line"></div>
             <p class="mt-4 font-light">
@@ -100,7 +102,7 @@
                 </div>
             </div>
         </section> -->
-        <section class="py-16 text-center">
+        <section class="py-16 text-center" id="past">
             <h2 class="text-center text-3xl logo-title pt-8">See the past Hum Style Awards</h2>
             <div class="line"></div>
             <p class="mt-8 font-light">Take a look at past events of Hum Style Awards at Houston, Texas and Toronto,
@@ -119,7 +121,7 @@
         <!-- footer -->
         <footer class="footer border border-zinc-200 py-8 flex items-center flex-col justify-between">
             <h3 class="text-xl font-bold">Hum Style Awards</h3>
-            <p class="font-light">Original Design by Cindy Shin on Behance</p>
+            <p class="font-light">Original Design by Cindy Shin in Behance</p>
         </footer>
     </main>
 
