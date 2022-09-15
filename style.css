@@ -169,8 +169,8 @@ nav {
 }
 
 .card-img {
-  height: 180px;
-  width: 180px;
+  height: auto;
+  max-width: 180px;
 }
 
 .card-img img {
