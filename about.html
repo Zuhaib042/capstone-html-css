@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/baf7e9f545.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Hum Style Awards</title>
+</head>
+
+<body>
+    <header>
+        <div class="hidden md:flex items-center justify-end h-10" id="top-header">
+            <div class="icons space-x-4 pr-6">
+                <a href="#" rel="noopener"><i class="fa-brands fa-facebook-f text-base"></i></a>
+                <a href="#" rel="noopener"><i class="fa-brands fa-twitter text-base"></i></a>
+                <a href="#" rel="noopener" class="hover:underline text-base">English</a>
+            </div>
+        </div>
+        <nav class="h-20 shadow-md flex items-center justify-between">
+            <!-- hamburger menu -->
+            <div class="md:hidden pl-12" id="btn-menu">
+                <button id="menu-btn" type="button" class="z-40 block hamburger md:hidden focus:outline-none">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
+            </div>
+            <div class="logo pr-12 md:pl-24">
+                <a href="index.html" class="text-2xl font-bold">Hum Style Awards</a>
+            </div>
+            <div class="menu-links hidden md:flex md:items-center  space-x-6 pr-6 ">
+                <a href="about.html" class="text-lg " rel="noopener">About</a>
+                <a href="#logo" class="text-lg " rel="noopener">Logo</a>
+                <a href="#past" class="text-lg " rel="noopener">Previously</a>
+                <a href="#" class="text-lg py-2 px-4 campaign" rel="noopener">CC Campaign</a>
+            </div>
+        </nav>
+        <ul id="menu"
+            class="absolute top-0 left-0 hidden flex-col self-end w-full min-h-screen py-1 pt-40 pl-12 space-y-3 text-lg text-white uppercase overlay">
+            <li class="mobile-links"> <a href="index.html" class="text-lg" rel="noopener">Home</a></li>
+            <li class="mobile-links"> <a href="about.html" class="text-lg" rel="noopener">About</a></li>
+            <li class="mobile-links"><a href="#logo" class="text-lg">Logo</a></li>
+            <li class="mobile-links"> <a href="#past" class="text-lg">Previously</a></li>
+            <li class="mobile-links"> <a href="#" class="text-lg py-2 px-4 campaign self-start">CC
+                    Campaign</a></li>
+        </ul>
+    </header>
+    <main>
+        <!-- hero section -->
+        <section class="hero w-full pb-12" id="hero">
+            <div
+                class="hero-content w-4/5 flex justify-center items-center flex-col text-center pt-12 md:pt-16 mx-auto">
+                <h1 class="hero-title font-black text-4xl md:text-6xl">Hum Style Awards <br> 2022</h1>
+                <div class="hero-desc max-w-lg mt-4 md:max-w-3xl text-sm md:text-base font-light py-2 px-4">
+                    <p>
+                        The Hum Awards are an annual awards show that celebrates the best in Pakistani cinema. The award
+                        show was first held in 2013, and since then, it has become one of the most anticipated events in
+                        the Pakistani entertainment calendar.
+                        The Hum Awards 2022 will take place in Toronto, Canada on Saturday, 24th of September 2022, in
+                        conjunction with Firstontario Center Hamilton. Only a few days remain before the 15th of
+                        September 2022 to vote for your favorite celebrity.
+                    </p>
+                </div>
+                <h2 class="text-lg mt-4 text-center hero-date font-light"> HUM Awards is amongst the top-rated awards
+                    shows in the South Asian sub-continent. for sponsership inquiries please contact
+                </h2>
+                <h3 class="font-bold mt-4">sales@humawards.ca
+                </h3>
+            </div>
+        </section>
+        <!-- logo section -->
+        <section class="logo py-16 flex flex-col justify-center items-center border border-zinc-200" id="logo">
+            <h2 class="text-center text-3xl logo-title pt-8 ">Hum Style Awards 2022 logo</h2>
+            <div class="line"></div>
+            <p class="mt-4 font-light px-6">
+                This year's hum style awards logo was decided through the logo compitition and the logo shown below has
+                selected.
+            </p>
+            <div class="border border-zinc-200 mt-12 py-8 px-10">
+                <p class="font-bold text-2xl">Hum Style Awards</p>
+            </div>
+
+        </section>
+
+        <!-- past section -->
+
+        <section class="py-16 text-center" id="past">
+            <h2 class="text-center text-3xl logo-title pt-8">See the past Hum Style Awards</h2>
+            <div class="line"></div>
+            <p class="mt-8 font-light px-6">Take a look at past events of Hum Style Awards at Houston, Texas and
+                Toronto,
+                Canada. </p>
+            <div class="flex flex-col md:flex-row gap-x-2 gap-y-4 mt-12 mx-8 md:mx-6">
+                <div class="flex flex-col justify-center items-center past1 overlay-past">
+                    <h2 class="past-date text-4xl">2021</h2>
+                    <h3 class="past-desc font-bold">7th Hum Style Awards in Houston Texas</h3>
+                </div>
+                <div class="flex flex-col justify-center items-center past2 overlay-past">
+                    <h2 class="past-date text-4xl">2018</h2>
+                    <h3 class="past-desc font-bold">6th Hum Style Awards in Toronto Canada</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- partners section -->
+        <section class="partners py-12 md:hidden" id="partners">
+            <h2 class="text-center text-3xl partners-title pt-8">Partners</h2>
+            <div class="line"></div>
+            <div class="w-full py-5 mt-5">
+                <div class="w-11/12 mx-auto">
+                    <div class="grid grid-cols-3 md:grid-cols-6 gap-4  justify-between ">
+                        <div class="bgImg">
+                            <img src="./images/client-1.png" class="img-fluid" alt="myob logo">
+                        </div>
+                        <div class="bgImg">
+                            <img src="./images/client-2.png" class="img-fluid" alt="BELIMO logo">
+                        </div>
+                        <div class="bgImg">
+                            <img src="./images/client-3.png" class="img-fluid" alt="Life Groups logo">
+                        </div>
+                        <div class="bgImg">
+                            <img src="./images/client-6.png" class="img-fluid" alt="Trustly Logo">
+                        </div>
+                        <div class="bgImg">
+                            <img src="./images/client-4.png" class="img-fluid" alt="Lilly logo">
+                        </div>
+                        <div class="bgImg">
+                            <img src="./images/client-5.png" class="img-fluid" alt="Citrus logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+
+        <footer class="footer-about py-8 flex items-center justify-center">
+
+            <h3 class="text-xl md:text-2xl font-bold px-4 md:pr-16 footer-t-about">Hum Style Awards</h3>
+            <div>
+                <p class="footer-p-about md:font-light">Original Design by Cindy Shin in Behance</p>
+                <p class="footer-p-about md:font-light">Some Rights Reserved</p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

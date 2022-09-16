@@ -6,13 +6,178 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-
+    <script src="https://kit.fontawesome.com/baf7e9f545.js" crossorigin="anonymous"></script>
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Hum Style Awards</title>
 </head>
 
 <body>
+    <header>
+        <div class="hidden md:flex items-center justify-end h-10" id="top-header">
+            <div class="icons space-x-4 pr-6">
+                <a href="#" rel="noopener"><i class="fa-brands fa-facebook-f text-base"></i></a>
+                <a href="#" rel="noopener"><i class="fa-brands fa-twitter text-base"></i></a>
+                <a href="#" rel="noopener" class="hover:underline text-base">English</a>
+            </div>
+        </div>
+        <nav class="h-20 shadow-md flex items-center justify-between">
+            <!-- hamburger menu -->
+            <div class="md:hidden pl-12" id="btn-menu">
+                <button id="menu-btn" type="button" class="z-40 block hamburger md:hidden focus:outline-none">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
+            </div>
+            <div class="logo pr-12 md:pl-24">
+                <a href="index.html" class="text-2xl font-bold">Hum Style Awards</a>
+            </div>
+            <div class="menu-links hidden md:flex md:items-center  space-x-6 pr-6 ">
+                <a href="about.html" class="text-lg" rel="noopener">About</a>
+                <a href="#program" class="text-lg" rel="noopener">Program</a>
+                <a href="#speakers" class="text-lg" rel="noopener">Speakers</a>
+                <a href="#partners" class="text-lg py-2 px-4 campaign" rel="noopener">CC Campaign</a>
+            </div>
+        </nav>
+        <ul id="menu"
+            class="absolute top-0 left-0 hidden flex-col self-end w-full min-h-screen py-1 pt-40 pl-12 space-y-3 text-lg text-white uppercase overlay ">
+            <li class="mobile-links"> <a href="index.html" class="text-lg" rel="noopener">Home</a></li>
+            <li class="mobile-links"><a href="about.html" class="text-lg" rel="noopener">About</a></li>
+            <li class="mobile-links"> <a href="#program" class="text-lg">Program</a></li>
+            <li class="mobile-links"> <a href="#speakers" class="text-lg">Speakers</a></li>
+            <li class="mobile-links"> <a href="#partners" class="text-lg py-2 px-4 campaign self-start">CC
+                    Campaign</a></li>
+        </ul>
+    </header>
+    <main>
+        <!-- hero section -->
+        <section class="hero w-full py-20" id="hero">
+            <div class="hero-content md:pt-6  pb-12 md:pb-12 px-8 md:px-36 flex items-center flex-col md:block">
+                <div>
+                    <h2 class="hero-light text-3xl md:text-4xl">"Hello Good people!"</h2>
+                    <h1 class="hero-title font-black text-5xl md:text-7xl">Hum Style Awards <br> 2022</h1>
+                </div>
+                <div class="hero-desc max-w-lg mt-4 md:max-w-3xl text-sm md:text-base  py-2 px-4">
+                    <p>
+                        The Hum Awards are one of the most prestigious awards in the Pakistan entertainment industry,
+                        and
+                        this year’s nominations are no exception. From Best Female Actress Popular to Best Drama Serial
+                        Popular, there are plenty of deserving nominees. The 8th Hum Awards Nominations for 2022 are
+                        listed
+                        below.
+                    </p>
+                </div>
+                <h2 class="text-3xl mt-6 md:mt-4 md:text-5xl text-center md:text-start hero-date font-black">2022-09-24
+                    (Sat)
+                </h2>
+                <h3 class="text-center md:text-start text-2xl mt-6 md:mt-4 md:text-2xl hero-venue">@ FirstOntario Centre
+                    -
+                    Toronto, Canada</h3>
+            </div>
+        </section>
 
+        <!-- program section -->
+
+        <section class="program pb-12 w-full flex flex-col items-center" id="program">
+            <h2 class="text-center text-3xl program-title pt-16">Main Program</h2>
+            <div class="line"></div>
+            <div class="mt-12 flex flex-col gap-y-2 md:flex-row md:gap-x-1 mx-3 md:mx-10">
+                <div class="program-card gap-2 md:mt-0 flex py-8 px-2 md:flex-col md:items-center justify-center">
+                    <i class="fa-solid fa-umbrella-beach "></i>
+                    <h2 class="text-lg md:text-xl program-subtitle pt-2">Entertainment</h2>
+                    <p class="program-desc pt-2 font-light text-center text-sm md:text-base">you will get the chance to
+                        see and meet your
+                        favorite stars
+                        from
+                        Pakistan
+                        showbiz industry</p>
+                </div>
+                <div class="program-card gap-2 flex py-8 px-2 md:flex-col md:items-center justify-center">
+                    <i class="fa-solid fa-award"></i>
+                    <h2 class="text-lg md:text-xl program-subtitle pt-2">Awards</h2>
+                    <p class="program-desc pt-2 font-light text-center text-sm md:text-base">Awards would be given to
+                        best candidates in their given category in tv dramas and movies.</p>
+                </div>
+                <div class="program-card gap-2  flex py-8 px-2 md:flex-col md:items-center justify-center">
+                    <i class="fa-solid fa-umbrella-beach "></i>
+                    <h2 class="text-lg md:text-xl program-subtitle pt-2">Recreation</h2>
+                    <p class="program-desc pt-2 font-light text-center text-sm md:text-base">Snacks would be distributed
+                        among audience and dinner would be served to them. kids are welcomed</p>
+                </div>
+                <div class="program-card gap-2  flex py-8 px-2 md:flex-col md:items-center justify-center">
+                    <i class="fa-solid fa-place-of-worship"></i>
+                    <h2 class="text-lg md:text-xl program-subtitle pt-2">Entertainment</h2>
+                    <p class="program-desc pt-2 font-light text-sm md:text-base text-center">You will be
+                        eager to take autograph of your favorite actor/actress, so there is a meet and greet
+                        session</p>
+                </div>
+                <div class="program-card gap-2  flex py-8 px-2 md:flex-col md:items-center justify-center">
+                    <i class="fa-solid fa-star"></i>
+                    <h2 class="text-lg md:text-xl program-subtitle pt-2">Celebrities</h2>
+                    <p class="program-desc pt-2 font-light text-sm md:text-base text-center">To meet your favorite
+                        celebrity, its a dream come true and for a fan that is a unforgetable moment</p>
+                </div>
+            </div>
+            <h3 class="text-center pt-8 hidden md:block text-2xl"><a href="#" class="underline  program-link">View full
+                    Program</a>
+            </h3>
+            <div class="py-6 px-12 join-btn md:hidden mt-8">
+                Join Hum Style Awards 2022
+            </div>
+        </section>
+
+        <!-- speakers section -->
+
+        <section class="py-12 px-[20px] flex flex-col items-center w-full speakers" id="speakers">
+            <h2 class="text-center text-3xl speakers-title pt-8">Featured Speakers</h2>
+            <div class="line"></div>
+            <div class="mt-12 md:grid grid-cols-2 md:gap-8 mx-3 md:mx-10" id="speaker-container">
+            </div>
+        </section>
+
+        <!-- partners section -->
+        <section class="partners py-12" id="partners">
+            <h2 class="text-center text-3xl partners-title pt-8">Partners</h2>
+            <div class="line"></div>
+            <div class="w-full py-5 mt-5">
+                <div class="w-11/12 mx-auto">
+                    <div class="grid grid-cols-3 md:grid-cols-6 gap-4  justify-between ">
+                        <div class="bgImg">
+                            <img src="./images/client-1.png" class="img-fluid" alt="Responsive image">
+                        </div>
+                        <div class="bgImg">
+                            <img src="./images/client-2.png" class="img-fluid" alt="Responsive image">
+                        </div>
+                        <div class="bgImg">
+                            <img src="./images/client-3.png" class="img-fluid" alt="Responsive image">
+                        </div>
+                        <div class="bgImg">
+                            <img src="./images/client-6.png" class="img-fluid" alt="Responsive image">
+                        </div>
+                        <div class="bgImg">
+                            <img src="./images/client-4.png" class="img-fluid" alt="Responsive image">
+                        </div>
+                        <div class="bgImg">
+                            <img src="./images/client-5.png" class="img-fluid" alt="Responsive image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+
+        <footer class="footer py-8 flex items-center justify-center">
+
+            <h3 class="text-xl md:text-2xl font-bold px-4 md:pr-16 footer-title">Hum Style Awards</h3>
+            <div>
+                <p class="footer-p">Original Design by Cindy Shin in Behance</p>
+                <p class="footer-p">Some Rights Reserved</p>
+            </div>
+        </footer>
+    </main>
 
 
     <script src="js/script.js"></script>

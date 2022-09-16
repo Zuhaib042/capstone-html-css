@@ -1,8 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Capstone html-css + javascript
+# Hum Style Awards 2022
 
-> It is my first Microverse Capstone project. it is a two page website where i have applied my html, css and javascript skills.
+> This is a demo Hum Style Awards 2022 website which I created as my first Microverse Capstone project. it is a two page website where i have applied my html, css and javascript skills.
+
+![Hum Style Awards 2022](images/capstone.png)
 
 ## Built With
 
@@ -18,14 +20,17 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Hum Style Awards 2022](https://zuhaib042.github.io/capstone-html-css/)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 To get a local copy up and running follow these simple example steps.
+
+Run following line in your command line or terminal
+
+- git clone https://github.com/Zuhaib042/capstone-html-css.git
+
+- then open it in any code editor for example Vscode or Atom.
 
 ### Prerequisites
 
@@ -39,14 +44,13 @@ install any editor VScode or Atom.
 
 you can make a good website with this project.
 
-### Deployment
-
 ## Authors
 
 👤 **Author1**
 
 - GitHub: [@Zuhaib042](https://github.com/Zuhaib042)
 - Twitter: [@Zuhaib042](https://twitter.com/Zuhaib042)
+- LinkedIn: (https://www.linkedin.com/in/zuhaib-amjad-488914234/)
 
 ## 🤝 Contributing
 
@@ -60,9 +64,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Original design idea by [Cindy Chin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) in Behance.
 
 ## 📝 License
 
