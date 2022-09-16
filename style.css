@@ -179,15 +179,27 @@ nav {
   color: #272a31;
 }
 
-.card-img {
-  height: auto;
-  max-width: 180px;
+.speaker-img {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  bottom: 60px;
+  left: 21px;
 }
 
-.card-img img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
+.card-pro {
+  color: var(--primary-color);
+  font-style: italic;
+}
+
+.card-desccard-title {
+  color: var(--secondary-color);
+}
+
+.line-small {
+  height: 2px;
+  width: 25px;
+  background-color: #d3d3d3;
 }
 
 .partners {
@@ -196,6 +208,11 @@ nav {
 
 .partners-title {
   color: var(--light-color);
+}
+
+.trans-img-back {
+  width: 80px;
+  height: 80px;
 }
 
 /* about page */
@@ -214,7 +231,8 @@ nav {
 }
 
 .past1 {
-  background-image: linear-gradient(#f5331dbf, #f2331ea2),
+  background-image:
+    linear-gradient(#f5331dbf, #f2331ea2),
     url(images/hum-7th.jpeg);
   background-size: cover;
   height: 300px;
@@ -222,7 +240,8 @@ nav {
 }
 
 .past2 {
-  background-image: linear-gradient(#f5331dbf, #f2331ea2),
+  background-image:
+    linear-gradient(#f5331dbf, #f2331ea2),
     url(images/hum-6th.jpeg);
   background-size: cover;
   height: 300px;
