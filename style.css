@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -116,10 +120,12 @@ nav {
 .hero-desc {
   border: 4px solid rgb(255, 255, 255);
   background-color: rgb(247, 247, 248);
+  color: #575757;
 }
 
-.hero-date {
-  color: #272a31;
+.hero-date,
+.hero-venue {
+  color: #575757;
 }
 
 /* program */
@@ -162,6 +168,12 @@ nav {
   color: rgb(247, 247, 248);
 }
 
+.join-btn {
+  background-color: #ec5242;
+  color: rgb(247, 247, 248);
+  cursor: pointer;
+}
+
 /* speakers section */
 .speakers-title {
   color: #272a31;
@@ -202,8 +214,7 @@ nav {
 }
 
 .past1 {
-  background-image:
-    linear-gradient(#f5331dbf, #f2331ea2),
+  background-image: linear-gradient(#f5331dbf, #f2331ea2),
     url(images/hum-7th.jpeg);
   background-size: cover;
   height: 300px;
@@ -211,8 +222,7 @@ nav {
 }
 
 .past2 {
-  background-image:
-    linear-gradient(#f5331dbf, #f2331ea2),
+  background-image: linear-gradient(#f5331dbf, #f2331ea2),
     url(images/hum-6th.jpeg);
   background-size: cover;
   height: 300px;
@@ -232,4 +242,26 @@ nav {
 .overlay-past {
   background-color: var(--primary-color);
   opacity: 0.9;
+}
+
+.footer-title {
+  color: var(--secondary-color);
+}
+
+.footer-p {
+  color: #575757;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-about {
+    background-color: var(--secondary-color);
+  }
+
+  .footer-p-about {
+    color: var(--light-color);
+  }
+
+  .footer-t-about {
+    color: var(--light-color);
+  }
 }

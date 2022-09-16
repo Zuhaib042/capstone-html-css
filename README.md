@@ -24,7 +24,6 @@
 
 ## Getting Started
 
-
 To get a local copy up and running follow these simple example steps.
 
 Run following line in your command line or terminal
@@ -65,7 +64,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Original design idea by Cindy Chin in Behance.
+- Original design idea by [Cindy Chin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) in Behance.
 
 ## 📝 License
 

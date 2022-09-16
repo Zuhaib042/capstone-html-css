@@ -53,11 +53,13 @@
     </header>
     <main>
         <!-- hero section -->
-        <section class="hero w-full pb-12" id="hero">
-            <div class="hero-content  pt-12 md:pt-16 pl-4 md:pl-16">
-                <h2 class="hero-light font-light text-3xl md:text-5xl">"Hello Good people!"</h2>
-                <h1 class="hero-title font-black text-6xl md:text-8xl">Hum Style Awards <br> 2022</h1>
-                <div class="hero-desc max-w-lg mt-4 md:max-w-3xl text-sm md:text-base font-light py-2 px-4">
+        <section class="hero w-full py-20" id="hero">
+            <div class="hero-content md:pt-6  pb-12 md:pb-12 px-8 md:px-36 flex items-center flex-col md:block">
+                <div>
+                    <h2 class="hero-light text-3xl md:text-4xl">"Hello Good people!"</h2>
+                    <h1 class="hero-title font-black text-5xl md:text-7xl">Hum Style Awards <br> 2022</h1>
+                </div>
+                <div class="hero-desc max-w-lg mt-4 md:max-w-3xl text-sm md:text-base  py-2 px-4">
                     <p>
                         The Hum Awards are one of the most prestigious awards in the Pakistan entertainment industry,
                         and
@@ -67,10 +69,10 @@
                         below.
                     </p>
                 </div>
-                <h2 class="text-3xl mt-6 md:mt-4 md:text-5xl text-center md:text-start hero-date font-bold">2022-09-24
+                <h2 class="text-3xl mt-6 md:mt-4 md:text-5xl text-center md:text-start hero-date font-black">2022-09-24
                     (Sat)
                 </h2>
-                <h3 class="text-center md:text-start text-2xl mt-6 md:mt-4 md:text-3xl font-light">@ FirstOntario Centre
+                <h3 class="text-center md:text-start text-2xl mt-6 md:mt-4 md:text-2xl hero-venue">@ FirstOntario Centre
                     -
                     Toronto, Canada</h3>
             </div>
@@ -78,11 +80,11 @@
 
         <!-- program section -->
 
-        <section class="program pb-12 w-full" id="program">
+        <section class="program pb-12 w-full flex flex-col items-center" id="program">
             <h2 class="text-center text-3xl program-title pt-16">Main Program</h2>
             <div class="line"></div>
-            <div class="mt-12 grid md:grid-cols-4 gap-y-4 md:gap-x-2 mx-3 md:mx-10">
-                <div class="program-card gap-x-2 flex py-8 px-2 md:flex-col items-center justify-center">
+            <div class="mt-12 flex flex-col gap-y-2 md:flex-row md:gap-x-1 mx-3 md:mx-10">
+                <div class="program-card gap-2 md:mt-0 flex py-8 px-2 md:flex-col md:items-center justify-center">
                     <i class="fa-solid fa-umbrella-beach "></i>
                     <h2 class="text-lg md:text-xl program-subtitle pt-2">Entertainment</h2>
                     <p class="program-desc pt-2 font-light text-center text-sm md:text-base">you will get the chance to
@@ -92,29 +94,38 @@
                         Pakistan
                         showbiz industry</p>
                 </div>
-                <div class="program-card gap-x-2  flex py-8 px-2 md:flex-col items-center justify-center">
+                <div class="program-card gap-2 flex py-8 px-2 md:flex-col md:items-center justify-center">
                     <i class="fa-solid fa-award"></i>
                     <h2 class="text-lg md:text-xl program-subtitle pt-2">Awards</h2>
                     <p class="program-desc pt-2 font-light text-center text-sm md:text-base">Awards would be given to
                         best candidates in their given category in tv dramas and movies.</p>
                 </div>
-                <div class="program-card gap-x-2 flex py-8 px-2 md:flex-col items-center justify-center">
+                <div class="program-card gap-2  flex py-8 px-2 md:flex-col md:items-center justify-center">
                     <i class="fa-solid fa-umbrella-beach "></i>
                     <h2 class="text-lg md:text-xl program-subtitle pt-2">Recreation</h2>
                     <p class="program-desc pt-2 font-light text-center text-sm md:text-base">Snacks would be distributed
                         among audience and dinner would be served to them. kids are welcomed</p>
                 </div>
-                <div class="program-card gap-x-2  flex py-8 px-2 md:flex-col items-center justify-center">
-                    <i class="fa-solid fa-award"></i>
+                <div class="program-card gap-2  flex py-8 px-2 md:flex-col md:items-center justify-center">
+                    <i class="fa-solid fa-place-of-worship"></i>
                     <h2 class="text-lg md:text-xl program-subtitle pt-2">Entertainment</h2>
                     <p class="program-desc pt-2 font-light text-sm md:text-base text-center">You will be
                         eager to take autograph of your favorite actor/actress, so there is a meet and greet
                         session</p>
                 </div>
+                <div class="program-card gap-2  flex py-8 px-2 md:flex-col md:items-center justify-center">
+                    <i class="fa-solid fa-star"></i>
+                    <h2 class="text-lg md:text-xl program-subtitle pt-2">Celebrities</h2>
+                    <p class="program-desc pt-2 font-light text-sm md:text-base text-center">To meet your favorite
+                        celebrity, its a dream come true and for a fan that is a unforgetable moment</p>
+                </div>
             </div>
-            <h3 class="text-center pt-8 text-2xl"><a href="#" class="underline  program-link">View full
+            <h3 class="text-center pt-8 hidden md:block text-2xl"><a href="#" class="underline  program-link">View full
                     Program</a>
             </h3>
+            <div class="py-6 px-12 join-btn md:hidden mt-8">
+                Join Hum Style Awards 2022
+            </div>
         </section>
 
         <!-- speakers section -->
@@ -158,9 +169,13 @@
 
         <!-- footer -->
 
-        <footer class="footer py-8 flex items-center flex-col justify-between">
-            <h3 class="text-xl font-bold">Hum Style Awards</h3>
-            <p class="font-light">Original Design by Cindy Shin in Behance</p>
+        <footer class="footer py-8 flex items-center justify-center">
+
+            <h3 class="text-xl md:text-2xl font-bold px-4 md:pr-16 footer-title">Hum Style Awards</h3>
+            <div>
+                <p class="footer-p">Original Design by Cindy Shin in Behance</p>
+                <p class="footer-p">Some Rights Reserved</p>
+            </div>
         </footer>
     </main>
 

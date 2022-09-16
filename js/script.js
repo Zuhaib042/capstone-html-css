@@ -57,15 +57,17 @@ const speakers = [
   },
 ];
 
-speakers.forEach((speaker) => {
-  speakersContainer.innerHTML += `<article class="flex items-start ">
-    <div class="card-img">
-        <img src=${speaker.src} alt=${speaker.alt}>
-    </div>
-    <div class="card-content flex flex-col pl-3">
-        <h2 class="card-title text-xl font-bold">${speaker.name}</h2>
-        <h3 class="card-pro pt-1">${speaker.profession}</h3>
-        <p class="w-max-64 md:w-48 text-sm font-light">${speaker.description}</p>
-    </div>
-</article>`;
-});
+window.onload = () => {
+  speakers.forEach((speaker) => {
+    speakersContainer.innerHTML += `<article class="flex items-start ">
+          <div class="card-img">
+              <img src=${speaker.src} alt=${speaker.alt}>
+          </div>
+          <div class="card-content flex flex-col pl-3">
+              <h2 class="card-title text-xl font-bold">${speaker.name}</h2>
+              <h3 class="card-pro pt-1">${speaker.profession}</h3>
+              <p class="w-max-64 md:w-48 text-sm font-light">${speaker.description}</p>
+          </div>
+      </article>`;
+  });
+};
